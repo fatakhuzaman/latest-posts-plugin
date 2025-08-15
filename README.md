@@ -10,14 +10,11 @@ Plugin WordPress sederhana untuk menampilkan daftar posting terbaru menggunakan 
 - Ditulis dengan pendekatan OOP (Object-Oriented Programming).
 
 ## 📂 Struktur Folder
+
 wp-content/
-
 └── plugins/
-
     └── latest-posts-plugin/
-    
         ├── latest-posts-plugin.php
-        
         └── class-latest-posts.php
 
 ## 🚀 Instalasi
@@ -34,6 +31,7 @@ wp-content/
 2️⃣ Widget Sidebar / Footer<br>
     Buka Appearance → Widgets → pilih Shortcode widget → masukkan: [latest_posts]<br>
 3️⃣ Di File Template PHP<br>
+
     <?php echo do_shortcode('[latest_posts]'); ?>
 
 ## 📸 Tampilan Output
