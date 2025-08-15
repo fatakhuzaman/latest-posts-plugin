@@ -12,23 +12,23 @@ Plugin WordPress sederhana untuk menampilkan daftar posting terbaru menggunakan 
 ## 📂 Struktur Folder
 wp-content/<br>
 └── plugins/<br>
-    └── latest-posts-plugin/<br>
-        ├── latest-posts-plugin.php<br>
-        └── class-latest-posts.php<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── latest-posts-plugin/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── latest-posts-plugin.php<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── class-latest-posts.php<br>
 
 ## 🚀 Instalasi
-1. Unduh atau clone repo ini:
-   git clone https://github.com/username/latest-posts-plugin.git
-2. Upload folder latest-posts-plugin ke:
-   wp-content/plugins/
-3. Masuk ke Dashboard → Plugins lalu aktifkan Latest Posts Plugin.
-4. (Opsional) Atur jumlah posting di Settings → Latest Posts (default: 5).
+1. Unduh atau clone repo ini:<br>
+git clone https://github.com/username/latest-posts-plugin.git
+2. Upload folder latest-posts-plugin ke:<br>
+wp-content/plugins/
+4. Masuk ke Dashboard → Plugins lalu aktifkan Latest Posts Plugin.
+5. (Opsional) Atur jumlah posting di Settings → Latest Posts (default: 5).
 
 ## 💡 Cara Penggunaan
 1️⃣ Shortcode di Halaman / Posting <br>
-    [latest_posts]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[latest_posts]<br>
 2️⃣ Widget Sidebar / Footer<br>
-    Buka Appearance → Widgets → pilih Shortcode widget → masukkan: [latest_posts]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buka Appearance → Widgets → pilih Shortcode widget → masukkan: [latest_posts]<br>
 3️⃣ Di File Template PHP
 
     <?php echo do_shortcode('[latest_posts]'); ?>
